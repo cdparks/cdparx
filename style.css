@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Crimson Text', serif;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #aab8ff;
+  /* From https://gradienthunt.com/gradient/17023 */
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(62,133,238,1) 1.1%,
+    rgba(227,137,240,1) 43.7%,
+    rgba(243,193,124,1) 89.7%
+  );
+}
+
+.container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row {
+  width: auto;
+}
+
+.item {
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 220px;
+  margin: 12px 0;
+  padding: 0;
+}
+
+.links > li {
+  display: flex;
+}
