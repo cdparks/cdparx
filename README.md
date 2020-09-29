@@ -1,2 +1,2 @@
 # cdparx
-the tiniest personal website is no website at all
+you know what's good? html is good
