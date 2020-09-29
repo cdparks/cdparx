@@ -11,7 +11,5 @@ fi
 
 git branch -D gh-pages 2>/dev/null || true
 git checkout -b gh-pages
-git add -f .
-git commit -am "Deploy to gh-pages on $(date)"
 git push -u --force origin gh-pages:gh-pages
 git checkout main
