@@ -24,8 +24,17 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.25em;
 }
 
-a {
+a:link, a:visited
+a:hover, a:active {
   color: #285fde;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
 }
 
 .container {

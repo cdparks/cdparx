@@ -18,8 +18,17 @@ h4 {
   font-style: italic;
 }
 
-a {
+a:link, a:visited
+a:hover, a:active {
   color: #ae65cc;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
 }
 
 hr.divider {
