@@ -18,6 +18,7 @@ h4 {
   font-style: italic;
 }
 
+a,
 a:link, a:visited
 a:hover, a:active {
   color: #ae65cc;
