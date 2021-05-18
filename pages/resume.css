@@ -1,0 +1,60 @@
+body {
+  font-family: 'Cutive Mono', monospace;
+  background-color: #022c36;
+  color: #78888a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-family: 'Courier Prime', sans-serif;
+  margin-bottom: 0.25em;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h4 {
+  font-style: italic;
+}
+
+a {
+  color: #ae65cc;
+}
+
+hr.divider {
+  border: 0;
+  height: 2px;
+  background: #78888a;
+}
+
+.container {
+  padding: 1em;
+  margin: 1em;
+}
+
+section.item {
+  margin-left: 1em;
+}
+
+ul {
+  position: relative;
+  margin-left: 1em;
+  margin-top: 0.5em;
+  padding-left: 0;
+  list-style-type: '- ';
+}
+
+ul.rating {
+  list-style: none;
+}
+
+span.fill {
+  color: #fff872;
+  font-size: 120%;
+}
+
+span.empty {
+  color: #1a1727;
+  font-size: 120%;
+}
