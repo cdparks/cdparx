@@ -3,7 +3,8 @@ html {
 }
 
 body {
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
