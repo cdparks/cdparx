@@ -12,9 +12,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/pages/resume.css">
     <script src="https://kit.fontawesome.com/7cc17c7c05.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/styles/base16/solarized-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.1.0/languages/haskell.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <style>
+      /* reduce padding around highlight block */
+      pre code.hljs {
+        padding: 0.25em;
+        line-height: 1.5em;
+      }
+
+      /* hljs messes with text-selection */
+      ::selection {
+        color: white !important;
+        background: #0665d7;
+      }
+    </style>
   </head>
   <body>
     <main class="container">
+      <a href="../index.html">⇐ Home</a>
+      <hr class="divider" />
       <h1>Christopher D. Parks</h1>
       <p>Software developer interested in typed functional programming, compilers, distributed systems, and embedded systems</p>
 
@@ -22,9 +41,15 @@
 
       <h2>Note to Recruiters</h2>
       <ul>
-        <li>I’m only considering Haskell and/or Rust roles right now</li>
+        <li>I’m only considering remote Haskell and Rust positions right now</li>
         <li>I have zero interest in cryptocurrency, blockchain, defense, or fintech</li>
-        <li>My preferred method of contact is <a href="https://www.linkedin.com/in/cdparks/">LinkedIn</a></li>
+        <li>My preferred method of contact is
+          <a href="https://www.linkedin.com/in/cdparks/">LinkedIn</a>. If you want my email address,
+          message me there, or run this code in <code>ghci</code>:
+<pre><code class="language-haskell">import Data.Char
+putStrLn $ chr . (+ 11) . ord <$> "X]g^hide]Zg#YVc^Za#eVg`h5\\bV^a#Xdb"
+</code></pre>
+        </li>
       </ul>
 
       <hr class="divider" />
@@ -34,8 +59,8 @@
       <h3>Languages</h3>
       <ul class="rating">
         <li><span class="fill">⭑⭑⭑⭑⭑</span> Haskell, Python</li>
-        <li><span class="fill">⭑⭑⭑⭑</span><span class="empty">⭑</span> JavaScript, PureScript, Rust</li>
-        <li><span class="fill">⭑⭑⭑</span><span class="empty">⭑⭑</span> Objective-C, Java, C, C++</li>
+        <li><span class="fill">⭑⭑⭑⭑</span><span class="empty">⭑</span> JavaScript (Flow/TypeScript), PureScript, Rust</li>
+        <li><span class="fill">⭑⭑⭑</span><span class="empty">⭑⭑</span> Objective-C, C, C++, Java</li>
       </ul>
 
       <h3>Software</h3>
@@ -48,8 +73,7 @@
       <h3>Other</h3>
       <ul class="rating">
         <li><span class="fill">⭑⭑⭑⭑⭑</span> Debugging, working remotely, written communication</li>
-        <li><span class="fill">⭑⭑⭑⭑</span><span class="empty">⭑</span> Pair programming, facilitating agile teams</li>
-        <li><span class="fill">⭑⭑⭑</span><span class="empty">⭑⭑</span> Slack memes</li>
+        <li><span class="fill">⭑⭑⭑⭑</span><span class="empty">⭑</span> Facilitating agile teams, pair programming</li>
       </ul>
 
       <hr class="divider" />
@@ -185,7 +209,7 @@
       </section>
 
       <hr class="divider" />
-      <a href="../index.html">Home</a>
+      <a href="../index.html">⇐ Home</a>
     </main>
   </body>
 </html>
